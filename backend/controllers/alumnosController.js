@@ -23,6 +23,7 @@ exports.createAlumno = (req, res) => {
     );
 };
 
+/*
 // Editar alumno
 exports.updateAlumno = (req, res) => {
   const { id } = req.params;
@@ -44,4 +45,4 @@ exports.deleteAlumno = (req, res) => {
       }
       res.send('Alumno eliminado correctamente');
   });
-};
+};*/
