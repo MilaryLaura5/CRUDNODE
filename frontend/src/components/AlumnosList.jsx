@@ -38,9 +38,9 @@ export default function AlumnosList({ actualizar }) {
     };
 
     return (
-        <ul>
+        <ul className="lista-alumnos">
             {alumnos.map(al => (
-                <li key={al.id}>
+                <li key={al.id} className="alumno-item">
                     {editando === al.id ? (
                         <form onSubmit={handleEditSubmit}>
                             <input

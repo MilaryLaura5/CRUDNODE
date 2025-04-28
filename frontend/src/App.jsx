@@ -12,11 +12,13 @@ function App() {
   const refrescar = () => setActualizar(!actualizar);
 
   return (
-      <div>
+    <div>
+      <div className='contenedor'>
         <h1>Registro de Alumnos</h1>
         <AlumnoForm onAlumnoAgregado={refrescar}/>
         <AlumnosList actualizar={actualizar}/>
       </div>
+    </div> 
   );
 }
 
