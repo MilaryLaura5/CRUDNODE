@@ -12,7 +12,7 @@ function App() {
   const refrescar = () => setActualizar(!actualizar);
 
   return (
-    <div>
+    <div id='root'>
       <div className='contenedor'>
         <h1>Registro de Alumnos</h1>
         <AlumnoForm onAlumnoAgregado={refrescar}/>
